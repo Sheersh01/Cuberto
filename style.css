@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Averta CY";
+  }
+  *::selection{
+    color: white;
+    background-color: black;
+}
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  #main {
+    width: 100%;
+  }
+  #home{
+    height: 100%;
+    width: 100%;
+  }
+  #nav{
+    /* background-color: red; */
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    width: 100px;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-family: "Averta CY";
+    letter-spacing: 0;
+    font-weight: 500;
+}
+#nav #navryt{
+    display:flex;
+    gap: 40px;
+}
+#nav i{
+    font-size: 20px;
+}
+#homemain{
+    /* background-color: red; */
+    width: 100%;
+    padding: 12vw 14vw;
+}
+#homemain>h1{
+    font-style: 5vw;
+    font-family: "Averta CY";
+}
+#headings{
+    display: flex;
+    gap: 2vw;
+}
+#headings h1{
+    font-family: "Averta CY";
+    font-weight: 500;
+    font-size: 7vw;
+    color: transparent;
+    -webkit-text-stroke:1px black;
+    letter-spacing: -3px;
+    line-height: 1;
+}
+#headings h1:hover{
+    color: black;
+}
+#homelast{
+    padding: 5vw 14vw;
+    width: 80%;
+}
+#homelast p{
+    font-family: "Averta CY";
+    font-weight: 500;
+    font-size: 1.6vw;
+}
+#features{
+    padding: 5vw 14vw;
+}
+.fheading h1{
+    font-family: "Averta CY";
+    font-size: 4vw;
+    line-height: 1;
+    font-weight: 600;
+}
+.fheading h1:nth-child(2){
+color: transparent;
+-webkit-text-stroke: 1px black;
+font-weight: 200;
+}
+#fimages{
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 40px; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+#fleft{
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+}
+#fryt{
+    padding-top: 50px;
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid green; */
+    display: flex;
+justify-content: flex-end;
+
+}
+    #fryt #images{
+        width: 90%;
+        height: 90%;
+        /* background-color: red; */
+    }
+    #fryt #images img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #fleft .fleftelem{
+        width: 100%;
+        height: inherit;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1vw;
+    }
+    .fleftelem h3{
+        font-weight: 400;
+        font-family: "Averta CY";
+        font-size: 1.5vw;
+    }
+    .fleftelem h1{
+        font-weight:400 ;
+        font-family: "Averta CY";
+        font-size: 2.8vw;
+    }
+    .fleftelem h4{
+        font-family: "Averta CY";
+        opacity: 0.5;
+    }
+    #fbtn{
+        padding: 1.5vw 2vw;
+        border-radius:100px;
+        background-color: white;
+        border: 1px solid gray;
+        font-weight: 600;
+        font-family: "Averta CY";
+    }
+    #btn{
+        display: flex;
+        justify-content: center;
+    }
+    #dev{
+padding: 5vw 15vw;
+    }
+    #dev h1{
+        font-weight: 600;
+        font-family: "Averta CY";
+        font-size: 4vw;
+        width: 60%;
+        line-height: 1;
+        margin-bottom: 3vw;
+    }
+    #dev p{
+        font-weight: 400;
+        font-family: "Averta CY";
+        font-size: 1.5vw;
+        width: 60%;
+        letter-spacing: -.5px;
+    }
+    #slide{
+        display: flex;
+        justify-content: space-between;
+        padding: 3vw 8vw;
+        gap: 3vw;
+    }
+    .slides img{
+        width: 100%;
+        height: 220px;
+        /* background-color: blue; */
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .slides .tag{
+        /* background-color: red; */
+width: fit-content;
+background-color: #f5f5f5;
+padding: .8vw 1.2vw;
+border-radius: 100px;
+margin: 10px 0px;
+    }
+    .slides h3{
+        font-weight: 400;
+        font-family: "Averta CY";
+        font-size: 1.5vw;
+        width: 60%;
+        letter-spacing: -.5px;
+        width: 100%;
+    }
+    #footer{
+        background-color: black;
+        width: 100%;
+        /* height: 80vh; */
+        color: white;
+    }
+    #fhead{
+        margin-top: 50px;
+        padding: 8vw 15vw;
+    }
+    #fhead h1{
+    font-size: 5.5vw;
+    user-select: none;
+    line-height: 1;}
+    #fbottom{
+        display: flex;
+        padding: 8vw 15vw;
+        justify-content: space-between;
+        
+    }
+    #fbotomlft p{
+        opacity: 0.8;
+    }
+    #fbotomlft p:nth-child(3){
+        margin-bottom: 50px;
+    }
+    #fbotomryt{
+        display: flex;
+        gap: 80px;
+    }
+    #rytup h1{
+        font-size: 1.5vw;
+        font-weight: 400;
+        line-height: 1.8;
+    }
+    #rytdown h1{
+        font-size: 1.5vw;
+        font-weight: 400;
+        line-height: 1.8;
+    }
+    #fbottom h1:hover{
+        /* border-bottom: 1px solid white; */
+        border-width: 100%;
+    }
